@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 0%
+}
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(151, 20, 20, 0.8);
+  background-position: right;
+  a {
+    text-decoration: none;
+    color: rgb(173, 22, 22);
+    &:hover {
+      color: #541869;
+    }
+  }
+}
+
+.esquerda {
+  
+float: left;
+}
+
+.direita {
+  float: right;
+}
+
+.centro{
+  float: center;
+}
+
+body{
+  margin: 20px;
+}
+
+.main-login{
+  width: 100vw;
+  height: 100vw;
+}
+.center{
+  text-align: center;
+}
+
+.textfield{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+
+.textfield > input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #541869;
+  color: rgb(230, 182, 230);
+  font-size: 12pt;
+}
+
+.direitaimage{
+  animation-direction: right ;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.Logo-Nova  {
+  width: 140px;
+}
+.logo{
+  max-width: 100%; /* A largura máxima será 100% do contêiner */
+  height: auto; /* A altura se ajusta automaticamente para manter a proporção */
+  display: block; /* Remove o espaço extra ao redor da imagem */
+}
